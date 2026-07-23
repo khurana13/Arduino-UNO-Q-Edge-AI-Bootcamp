@@ -29,7 +29,7 @@ Controlled the onboard red LED directly through Linux terminal commands and expl
 
 Created a Python application to blink the onboard red LED at one-second intervals using Arduino App Utilities.
 
-### Lab 03 – RGB LED Colour Cycle Using Python
+### Lab 03 – RGB LED Color Cycle Using Python
 
 Used Python to cycle the onboard RGB LED through red, green and blue colours with a short delay between each colour.
 
