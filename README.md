@@ -44,7 +44,7 @@ Arduino-UNO-Q-Edge-AI-Bootcamp/
 │
 ├── README.md
 ├── Lab-01-Terminal-LED-Control/
-│   └── commands.txt
+│   └── command.txt
 ├── Lab-02-Python-LED-Blink/
 │   └── main.py
 ├── Lab-03-RGB-LED-Colour-Cycle/
