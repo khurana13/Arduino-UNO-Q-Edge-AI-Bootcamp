@@ -37,18 +37,44 @@ Used Python to cycle the onboard RGB LED through red, green and blue colours wit
 
 Programmed the onboard RGB LED using an Arduino sketch and explored active-low LED behaviour with digital output pins.
 
+### Lab 05 – Real-Time Object Detection Using Edge AI
+
+In this lab, I explored real-time object detection using the **Arduino UNO Q** and **Arduino App Lab**.
+
+The application captured live camera input and used an AI model to identify objects by displaying bounding boxes, class labels and confidence scores. This activity demonstrated how computer vision models can run directly on an edge device without relying entirely on cloud processing.
+
+#### Key Learnings
+
+- Running an object-detection application on an edge device
+- Understanding bounding boxes, labels and confidence scores
+- Processing live camera input
+- Exploring computer vision and Edge AI
+- Understanding the benefits of local AI processing such as faster response and reduced dependency on cloud services
+
+## Acknowledgement
+
+These labs were completed during the Arduino Edge AI Bootcamp and provided hands-on experience with Linux, Python, Arduino programming and hardware control using the Arduino UNO Q.
+
 ## Repository Structure
 
 ```text
 Arduino-UNO-Q-Edge-AI-Bootcamp/
 │
 ├── README.md
+│
 ├── Lab-01-Terminal-LED-Control/
 │   └── command.txt
+│
 ├── Lab-02-Python-LED-Blink/
 │   └── main.py
+│
 ├── Lab-03-RGB-LED-Colour-Cycle/
 │   └── main.py
+│
 ├── Lab-04-RGB-LED-Arduino-Sketch/
 │   └── rgb_led_cycle.ino
+│
+├── Lab-05-Real-Time-Object-Detection/
+│   └── README.md
+│
 └── images/
