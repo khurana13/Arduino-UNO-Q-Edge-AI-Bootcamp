@@ -1,0 +1,20 @@
+# Method 1: Control the onboard red LED using the complete path
+# Use /sys, not sys, because /sys is an absolute system path.
+
+# Turn the LED OFF
+echo 0 | tee /sys/class/leds/red\:user/brightness
+
+# Turn the LED ON
+echo 1 | tee /sys/class/leds/red\:user/brightness
+
+
+# Method 2: Navigate to the LED directory and update the brightness file
+# Start with /sys because it refers to the system directory from the root.
+
+cd /sys/class/leds/red\:user
+
+# Turn the LED ON
+echo 1 > brightness
+
+# Turn the LED OFF
+echo 0 > brightness
